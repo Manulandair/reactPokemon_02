@@ -1,0 +1,25 @@
+
+
+.pokeForm{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    border: solid 1px;
+}
+
+.pokeForm>button{
+    padding: 10px;
+    border: solid 1px ;
+    border-radius: 0.25rem;
+    background-color:steelblue;
+    list-style: none;
+}
+/* .pokeform_h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+} */
+.pokeForm>li{
+    background-color: rgb(234, 165, 81);
+    padding: 10px;
+    list-style: none;
+}

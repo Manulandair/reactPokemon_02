@@ -1,0 +1,12 @@
+
+.menuthird{
+    background-color: rgb(4, 65, 115);
+    }
+.menuSecond>button:first-child,.menuSecond>button:nth-child(2){
+    background-color: steelblue;
+    margin-right: 20px;
+
+}
+.menuthird>a{
+    color: white;
+}
