@@ -1,27 +1,22 @@
 import "./PokemonFormImp.css";
 import { useNavigate, Navigate } from "react-router-dom";
-import { NavLink, Link } from "react-router-dom";
-
 const PokemonFormImp = ({ name, url }) => {
-  const urlElement = String(url);
   const Navigate = useNavigate();
   const CallNavigate = () => {
-    Navigate();
-    console.log(urlElement);
+    const id = url.replace("https://pokeapi.co/api/v2/pokemon-form/", "");
+    Navigate(`${id}`);
+    return;
   };
   return (
     <>
-      <ul className="pokeForm">
-        <li>
-          <NavLink to="/">Nombre :{name}</NavLink>
-        </li>
-        <li>
+      <div className="pokeForm">
+        <div>
+          <button onClick={CallNavigate}>Name : {name}</button>
+        </div>
+        <div>
           <button onClick={CallNavigate}>Url : {url}</button>
-        </li>
-        <a href="" onClick={() => Navigate(`${urlElement}`)}>
-          Ver Pokem
-        </a>
-      </ul>
+        </div>
+      </div>
     </>
   );
 };

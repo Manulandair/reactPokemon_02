@@ -1,6 +1,7 @@
 import "./pokemonForm.css";
 import PokemonFormImp from "./PokemonFormImp/PokemonFormImp";
 const PokemonForm = ({ pokemon }) => {
+  console.log(pokemon);
   return (
     <>
       <div className="pokeform_h1">Pagina de los nombres de pokemon</div>

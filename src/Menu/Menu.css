@@ -1,12 +1,21 @@
 
-.menuthird{
-    background-color: rgb(4, 65, 115);
+.container{
+    width: 1000px;
+    border-radius: 1rem;
+    background-color: rgb(1, 60, 108);
+    height: 500px;
+}
+.container>h1{
+    padding: 20px;
+    margin-top: 20px;
+    color: yellow;
+}
+
+.menuSecond{
+        display: inline-grid;
     }
-.menuSecond>button:first-child,.menuSecond>button:nth-child(2){
-    background-color: steelblue;
+.menuSecond>button{
+    /* background-color: steelblue; */
     margin-right: 20px;
 
-}
-.menuthird>a{
-    color: white;
 }
