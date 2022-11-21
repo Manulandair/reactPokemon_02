@@ -4,7 +4,7 @@ import { useEffect } from "react";
 const PokemonElemtImagenes = ({}) => {
   const [pokemon, setPokemon] = useState([]);
   let ArrayPokemon = [];
-  const id = 1;
+  let id = 1;
 
   const use = (id) => {
     useEffect(() => {
@@ -21,10 +21,10 @@ const PokemonElemtImagenes = ({}) => {
   };
   if (!pokemon) return <span>Cargando...</span>;
   console.log(pokemon.id);
-  {
+  peticionImagen((id) => {
     id < 10 && id++;
     use(id);
-  }
+  });
 
   return (
     <>
