@@ -11,7 +11,10 @@ const PokemonFormImp = ({ name, url }) => {
     <>
       <div className="pokeForm">
         <div>
-          <button onClick={CallNavigate}>Name : {name}</button>
+          <button onClick={CallNavigate}>
+            Name : {name} <br />
+            pulsar aqui
+          </button>
         </div>
         <div>
           <button onClick={CallNavigate}>Url : {url}</button>

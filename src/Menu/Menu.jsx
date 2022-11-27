@@ -8,7 +8,7 @@ const Menu = () => {
   };
   return (
     <>
-      <div className="container">
+      <div className="menucontainer">
         <h1>Esta es la pagina inicial de la busqueda de Pokemons</h1>
         <div className="menuSecond">
           <button type="submit" onClick={CallNavigate}>

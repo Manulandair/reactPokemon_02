@@ -3,21 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "./buscadorPokemon.css";
 
 function BuscadorPokemon() {
-  // const [pokemon, setPokemon] = useState([]);
   const navigate = useNavigate();
-
-  // useEffect(() => {
-  //   fetch("https://pokeapi.co/api/v2/pokemon-form/ ")
-  //     .then((resp) => resp.json())
-  //     .then((data) => {
-  //       setPokemon(data.results);
-  //     })
-  //     .catch(() => {
-  //       console.error("La peticion fallo");
-  //     });
-  // }, []);
-
-  // if (pokemon.length === 0) return <span>Cargando ...</span>;
 
   return (
     <>

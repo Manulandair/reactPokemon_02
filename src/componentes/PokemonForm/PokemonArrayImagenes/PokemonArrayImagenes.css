@@ -1,0 +1,15 @@
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.contain>:nth-child(1){
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: yellow;
+}

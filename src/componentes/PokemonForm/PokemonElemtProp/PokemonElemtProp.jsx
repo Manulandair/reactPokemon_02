@@ -19,7 +19,7 @@ const PokemonElemtProp = ({
   };
   return (
     <>
-      <div className="container">
+      <div className="propcontainer">
         <div className="title">
           Este es el Pokemos que has seleccionado <span>{name}</span>
         </div>

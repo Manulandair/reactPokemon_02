@@ -4,7 +4,8 @@ import PokemonFormUrl from "./componentes/PokemonForm/PokemonFormUrl/PokemonForm
 import BuscadorPokemon from "./pages/BuscadorPokemon/BuscadorPokemon";
 import PokemonFormElement from "./componentes/PokemonForm/PokemonFormElement/PokemonFormElement";
 import Menu from "./Menu/Menu";
-import PokemonElemtImagenes from "./componentes/PokemonForm/PokemonElemtImagenes/PokemonElemtImagenes";
+import PokemonArrayImagenes from "./componentes/PokemonForm/PokemonArrayImagenes/PokemonArrayImagenes";
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -12,7 +13,7 @@ const App = () => {
         <Route path="/" element={<Menu />} />
         <Route path="/buscador" element={<BuscadorPokemon />} />
         <Route path="/buscador/url/" element={<PokemonFormUrl />} />
-        <Route path="/buscador/imagenes/" element={<PokemonElemtImagenes />} />
+        <Route path="/buscador/imagenes/" element={<PokemonArrayImagenes />} />
         <Route path="/buscador/url/:id" element={<PokemonFormElement />} />
       </Routes>
     </BrowserRouter>
